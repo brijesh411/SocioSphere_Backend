@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://main--earnest-gumdrop-e92b75.netlify.app"
+      "https://socio-sphere.netlify.app"
       
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
