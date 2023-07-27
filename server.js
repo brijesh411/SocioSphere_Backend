@@ -25,7 +25,6 @@ app.use(
   })
 );
 
-app.use(compression()); // compression middleware
 
 app.use("/api/auth", authRouter);
 app.use("/api/users", userRouter);
